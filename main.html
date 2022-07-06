@@ -12,65 +12,134 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
     <!-- CSS Style Sheet -->
-    <link rel="stylesheet" href="styles.css" />
+  
 
     <!-- All Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
     <footer>
-      <div class="fTitle ">
-        <div class="text float-start"> <h4>Company</h4> </div>
-        <div class="socialMedia float-end">
-          <i class="fa-brands fa-facebook-f "></i>
-          <i class="fa-brands fa-twitter "></i>
-          <i class="fa-brands fa-instagram "></i>
-          <i class="fa-brands fa-linkedin-in "></i>
-          <i class="fa-brands fa-youtube "></i>
+      <div class="fTitle d-flex justify-content-between align-items-center flex-wrap p-4">
+        <h4 class="mb-4">Company</h4> 
+        <div class="">
+          <ul class="nav ">
+            <li class="nav-item ">
+              <a href="#" class="nav-link text-white d-flex justify-content-center align-items-center fb me-2"> <i class=" fs-2 fa-brands fa-facebook-f "></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white d-flex justify-content-center align-items-center tw me-2"> <i class=" fs-2 fa-brands fa-twitter "></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white d-flex justify-content-center align-items-center in me-2"> <i class=" fs-2 fa-brands fa-instagram"></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white d-flex justify-content-center align-items-center ln me-2"> <i class=" fs-2 fa-brands fa-linkedin-in "></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white d-flex justify-content-center align-items-center yo me-2"> <i class=" fs-2 fa-brands fa-youtube"></i></a>
+            </li>
+          </ul>
+         
+          <!-- <i class=" fs-2 fa-brands fa-twitter "></i>
+          <i class=" fs-2 fa-brands fa-instagram "></i>
+          <i class=" fs-2 fa-brands fa-linkedin-in "></i>
+          <i class=" fs-2 fa-brands fa-youtube "></i> -->
         </div>
       </div>
 
-      <div class="links">
-        <div class="container">
-          <div class="row">
-            <div class="col"> <h5 class="highlight">Links</h5> </div>
-            <div class="col"> <h5 class="highlight">Services</h5> </div>
-            <div class="col"> <h5 class="highlight">Other services</h5> </div>
-            <div class="col"> <h5 class="highlight">Contact</h5> </div>
+      <div class="ms-4" >
+        <div class="link-boxes ">
+         <div class="row text-white row-cols-2 row-cols-md-4 ">
+          <div class="col">
+            <p class="fs-5">Links</p>
+          <hr class="w-25 ">
+            <ul class="nav d-flex flex-column mb-4">
+              <li class="nav-item">
+                <a href="#" class="nav-link px-0 ">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link px-0 ">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link px-0 ">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link px-0 ">Get Started</a>
+              </li>
+            </ul>
           </div>
-          <div class="row">
-            <div class="col">Home</div>
-            <div class="col">App Design</div>
-            <div class="col">SEO</div>
-            <div class="col">+91 8879887262</div>
+          <div class="col">
+            <p class="fs-5">Servieces</p>
+            <hr class="w-25">
+            <ul class="nav d-flex flex-column mb-4">
+              <li class="nav-item">
+                <a href="#" class="nav-link px-0 ">App Design</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link px-0 ">Web Design</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link px-0 ">logo Design</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link px-0 ">Banner Design</a>
+              </li>
+            </ul>
           </div>
-          <div class="row">
-            <div class="col">Contact</div>
-            <div class="col">Web Design</div>
-            <div class="col">Content Marketing</div>
-            <div class="col">+91 8879887262</div>
+          <div class="col">
+            <p class="fs-5">Other services</p>
+            <hr class="w-25">
+            <ul class="nav d-flex flex-column mb-4">
+              <li class="nav-item">
+                <a href="#" class="nav-link px-0 ">SEO</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link px-0 ">Content Marketing</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link px-0 ">Prints</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link px-0 ">Social Media</a>
+              </li>
+            </ul>
           </div>
-          <div class="row">
-            <div class="col">About Us</div>
-            <div class="col">logo Design</div>
-            <div class="col">Prints</div>
-            <div class="col">contact@company.com</div>
+          <div class="col">
+            <p class="fs-5">Contact</p>
+            <hr class="w-25">
+            <ul class="nav d-flex flex-column mb-4">
+              <li class="nav-item">
+                <a href="#" class="nav-link px-0 ">+91 8879887262</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link px-0 ">+91 8879887262</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link px-0 ">contact@gmail.com</a>
+              </li>
+
+            </ul>
           </div>
-          <div class="row">
-            <div class="col">Get Started</div>
-            <div class="col">Banner Design</div>
-            <div class="col">Social Media</div>
-            <div class="col"></div>
-          </div>
+         </div>
+          <!-- your code here -->
         </div>
       </div>
 
-      <div class="copyright">
-          <div class="float-start">Copyright © 2021 company.</div>
-          <div class="float-end">Privacy Policy</div>
-      </div>
+     
+        <div class="bottom-details bg-dark pt-4 px-4 ">
+          <div class="  d-flex justify-content-between align-items-center">
+            <p class="  ">
+             Copyright  &copy; 2022 Company
+            </p>
+            <p class="    ">
+             Privacy policy
+            </p>
+          </div>
+          <!-- your code here -->
+        </div>
+     
     </footer>
   </body>
 </html>
